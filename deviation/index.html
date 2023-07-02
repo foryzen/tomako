@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head prefix="og: http://ogp.me/ns#">
+    <meta property="og:title" content="1年情報技術科の偏差値が求まるサイト">
+    <meta property="og:description" content="教科と自分の点数を入力してください。そうすると、偏差値が求まるハズです...">
+    <title>1年情報技術科の偏差値が求まるサイト</title>
+</head>
+<body>
+    <select id="subject">
+        <option value="">教科を選択してください！</option>
+        <option value="sub1">公共</option>
+        <option value="sub2">英語</option>
+        <option value="sub3">ハードウェア技術</option>
+        <option value="sub4">電気回路</option>
+        <option value="sub5">科学と人間生活</option>
+        <option value="sub6">数学Ⅰ</option>
+        <option value="sub7">保健</option>
+        <option value="sub8">情報数理</option>
+    </select>
+
+    <input type="number" placeholder="点数" id="score">
+    <button onclick="exe()">計算</button>
+
+    <h1 id="output"></h1>
+    <h3 id="notice"></h1>
+
+    <script src="main.js"></script>
+</body>
+</html>
