@@ -1,0 +1,17 @@
+#subject{
+    padding: 5px;
+    width: 250px;
+    font-size: 18px;
+}
+
+#score{
+    width: 200px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+button{
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+}
