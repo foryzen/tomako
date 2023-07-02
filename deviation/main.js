@@ -15,12 +15,16 @@ function exe(){
             sc('notice').innerHTML = 'Notice:この教科は、サンプルが少ないため正確な値が出力されない可能性があります！'
         }else if(sc('subject').value=='sub4'){
             calc(Number(sc('score').value),54.125,23.0403)
+            sc('notice').innerHTML = ''
         }else if(sc('subject').value=='sub5'){
             calc(Number(sc('score').value),64,15.8508)
+            sc('notice').innerHTML = ''
         }else if(sc('subject').value=='sub6'){
             calc(Number(sc('score').value),64,20.7183)
+            sc('notice').innerHTML = ''
         }else if(sc('subject').value=='sub7'){
             calc(Number(sc('score').value),58.5,13)
+            sc('notice').innerHTML = ''
         }else if(sc('subject').value=='sub8'){
             calc(Number(sc('score').value),50,20)
             sc('notice').innerHTML = 'Notice:この教科は、サンプルが少ないため正確な値が出力されない可能性があります！'
